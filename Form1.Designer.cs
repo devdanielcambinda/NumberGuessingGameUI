@@ -32,6 +32,7 @@
             this.buttonQuit = new System.Windows.Forms.Button();
             this.buttonSettings = new System.Windows.Forms.Button();
             this.buttonHelp = new System.Windows.Forms.Button();
+            this.mainMenu1 = new WindowsFormsApp1.MainMenu();
             this.SuspendLayout();
             // 
             // buttonQuit
@@ -73,12 +74,20 @@
             this.buttonHelp.UseVisualStyleBackColor = true;
             this.buttonHelp.Click += new System.EventHandler(this.buttonHelp_Click);
             // 
+            // mainMenu1
+            // 
+            this.mainMenu1.Location = new System.Drawing.Point(486, 196);
+            this.mainMenu1.Name = "mainMenu1";
+            this.mainMenu1.Size = new System.Drawing.Size(8, 8);
+            this.mainMenu1.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.mainMenu1);
             this.Controls.Add(this.buttonHelp);
             this.Controls.Add(this.buttonQuit);
             this.Controls.Add(this.buttonSettings);
@@ -96,6 +105,7 @@
         private System.Windows.Forms.Button buttonQuit;
         private System.Windows.Forms.Button buttonSettings;
         private System.Windows.Forms.Button buttonHelp;
+        private MainMenu mainMenu1;
     }
 }
 
