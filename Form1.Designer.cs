@@ -76,9 +76,9 @@
             // 
             // mainMenu1
             // 
-            this.mainMenu1.Location = new System.Drawing.Point(56, 84);
+            this.mainMenu1.Location = new System.Drawing.Point(32, 71);
             this.mainMenu1.Name = "mainMenu1";
-            this.mainMenu1.Size = new System.Drawing.Size(1172, 624);
+            this.mainMenu1.Size = new System.Drawing.Size(1217, 617);
             this.mainMenu1.TabIndex = 4;
             // 
             // Form1
