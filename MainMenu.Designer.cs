@@ -43,9 +43,9 @@
             this.buttonUserGuess.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonUserGuess.BackgroundImage")));
             this.buttonUserGuess.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.buttonUserGuess.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonUserGuess.Location = new System.Drawing.Point(75, 195);
+            this.buttonUserGuess.Location = new System.Drawing.Point(75, 185);
             this.buttonUserGuess.Name = "buttonUserGuess";
-            this.buttonUserGuess.Size = new System.Drawing.Size(297, 302);
+            this.buttonUserGuess.Size = new System.Drawing.Size(297, 292);
             this.buttonUserGuess.TabIndex = 0;
             this.buttonUserGuess.UseVisualStyleBackColor = true;
             this.buttonUserGuess.Click += new System.EventHandler(this.buttonUserGuess_Click);
@@ -55,9 +55,9 @@
             this.buttonCpuGuess.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonCpuGuess.BackgroundImage")));
             this.buttonCpuGuess.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.buttonCpuGuess.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCpuGuess.Location = new System.Drawing.Point(462, 195);
+            this.buttonCpuGuess.Location = new System.Drawing.Point(462, 185);
             this.buttonCpuGuess.Name = "buttonCpuGuess";
-            this.buttonCpuGuess.Size = new System.Drawing.Size(297, 302);
+            this.buttonCpuGuess.Size = new System.Drawing.Size(297, 292);
             this.buttonCpuGuess.TabIndex = 1;
             this.buttonCpuGuess.UseVisualStyleBackColor = true;
             this.buttonCpuGuess.Click += new System.EventHandler(this.buttonCpuGuess_Click);
@@ -67,9 +67,9 @@
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(844, 195);
+            this.button3.Location = new System.Drawing.Point(844, 185);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(297, 302);
+            this.button3.Size = new System.Drawing.Size(297, 292);
             this.button3.TabIndex = 2;
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -87,7 +87,7 @@
             // labelUserGuess
             // 
             this.labelUserGuess.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelUserGuess.Location = new System.Drawing.Point(129, 510);
+            this.labelUserGuess.Location = new System.Drawing.Point(129, 500);
             this.labelUserGuess.Name = "labelUserGuess";
             this.labelUserGuess.Size = new System.Drawing.Size(182, 52);
             this.labelUserGuess.TabIndex = 4;
@@ -96,7 +96,7 @@
             // labelComputerGuess
             // 
             this.labelComputerGuess.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelComputerGuess.Location = new System.Drawing.Point(492, 510);
+            this.labelComputerGuess.Location = new System.Drawing.Point(492, 500);
             this.labelComputerGuess.Name = "labelComputerGuess";
             this.labelComputerGuess.Size = new System.Drawing.Size(250, 52);
             this.labelComputerGuess.TabIndex = 5;
@@ -105,7 +105,7 @@
             // labelMatchHistory
             // 
             this.labelMatchHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMatchHistory.Location = new System.Drawing.Point(892, 510);
+            this.labelMatchHistory.Location = new System.Drawing.Point(892, 500);
             this.labelMatchHistory.Name = "labelMatchHistory";
             this.labelMatchHistory.Size = new System.Drawing.Size(202, 52);
             this.labelMatchHistory.TabIndex = 6;
