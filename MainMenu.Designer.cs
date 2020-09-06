@@ -66,7 +66,7 @@
             // 
             this.labelMainMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelMainMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMainMenu.Location = new System.Drawing.Point(59, 19);
+            this.labelMainMenu.Location = new System.Drawing.Point(63, 29);
             this.labelMainMenu.Name = "labelMainMenu";
             this.labelMainMenu.Size = new System.Drawing.Size(399, 78);
             this.labelMainMenu.TabIndex = 3;
