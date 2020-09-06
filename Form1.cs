@@ -13,6 +13,9 @@ namespace WindowsFormsApp1
     public partial class Form1 : Form
     {
         public object MessageBoxManager { get; private set; }
+        public MainMenu MainMenu { get; set; }
+        public HelpButtonMenu HelpButtonMenu { get ; set;}
+        
 
         public Form1()
         {
@@ -44,7 +47,7 @@ namespace WindowsFormsApp1
         }
 
         private void buttonHelp_Click(object sender, EventArgs e)
-        {
+        { 
 
         }
     }

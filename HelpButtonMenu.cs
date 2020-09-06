@@ -12,9 +12,18 @@ namespace WindowsFormsApp1
 {
     public partial class HelpButtonMenu : UserControl
     {
+
+        
         public HelpButtonMenu()
         {
             InitializeComponent();
+        }
+
+        
+
+        private void buttongoBackHelp_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
