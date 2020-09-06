@@ -41,7 +41,7 @@
             this.buttonQuit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.buttonQuit.FlatAppearance.BorderSize = 0;
             this.buttonQuit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonQuit.Location = new System.Drawing.Point(1217, 12);
+            this.buttonQuit.Location = new System.Drawing.Point(1268, 12);
             this.buttonQuit.Name = "buttonQuit";
             this.buttonQuit.Size = new System.Drawing.Size(51, 53);
             this.buttonQuit.TabIndex = 0;
@@ -54,7 +54,7 @@
             this.buttonSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.buttonSettings.FlatAppearance.BorderSize = 0;
             this.buttonSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSettings.Location = new System.Drawing.Point(1160, 12);
+            this.buttonSettings.Location = new System.Drawing.Point(1211, 12);
             this.buttonSettings.Name = "buttonSettings";
             this.buttonSettings.Size = new System.Drawing.Size(51, 53);
             this.buttonSettings.TabIndex = 1;
@@ -67,7 +67,7 @@
             this.buttonHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.buttonHelp.FlatAppearance.BorderSize = 0;
             this.buttonHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonHelp.Location = new System.Drawing.Point(1103, 12);
+            this.buttonHelp.Location = new System.Drawing.Point(1154, 12);
             this.buttonHelp.Name = "buttonHelp";
             this.buttonHelp.Size = new System.Drawing.Size(51, 53);
             this.buttonHelp.TabIndex = 3;
@@ -76,9 +76,9 @@
             // 
             // mainMenu1
             // 
-            this.mainMenu1.Location = new System.Drawing.Point(32, 71);
+            this.mainMenu1.Location = new System.Drawing.Point(62, 85);
             this.mainMenu1.Name = "mainMenu1";
-            this.mainMenu1.Size = new System.Drawing.Size(1217, 617);
+            this.mainMenu1.Size = new System.Drawing.Size(1200, 690);
             this.mainMenu1.TabIndex = 4;
             // 
             // Form1
@@ -86,7 +86,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.ClientSize = new System.Drawing.Size(1331, 798);
             this.Controls.Add(this.mainMenu1);
             this.Controls.Add(this.buttonHelp);
             this.Controls.Add(this.buttonQuit);
