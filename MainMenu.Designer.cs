@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenu));
             this.buttonUserGuess = new System.Windows.Forms.Button();
             this.buttonCpuGuess = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.labelMainMenu = new System.Windows.Forms.Label();
             this.labelUserGuess = new System.Windows.Forms.Label();
             this.labelComputerGuess = new System.Windows.Forms.Label();
             this.labelMatchHistory = new System.Windows.Forms.Label();
+            this.buttonMatchHistory = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonUserGuess
@@ -61,18 +61,6 @@
             this.buttonCpuGuess.TabIndex = 1;
             this.buttonCpuGuess.UseVisualStyleBackColor = true;
             this.buttonCpuGuess.Click += new System.EventHandler(this.buttonCpuGuess_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(844, 162);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(297, 292);
-            this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // labelMainMenu
             // 
@@ -111,15 +99,27 @@
             this.labelMatchHistory.TabIndex = 6;
             this.labelMatchHistory.Text = "Match History";
             // 
+            // buttonMatchHistory
+            // 
+            this.buttonMatchHistory.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonMatchHistory.BackgroundImage")));
+            this.buttonMatchHistory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonMatchHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonMatchHistory.Location = new System.Drawing.Point(842, 162);
+            this.buttonMatchHistory.Name = "buttonMatchHistory";
+            this.buttonMatchHistory.Size = new System.Drawing.Size(297, 292);
+            this.buttonMatchHistory.TabIndex = 7;
+            this.buttonMatchHistory.UseVisualStyleBackColor = true;
+            this.buttonMatchHistory.Click += new System.EventHandler(this.buttonMatchHistory_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.buttonMatchHistory);
             this.Controls.Add(this.labelMatchHistory);
             this.Controls.Add(this.labelComputerGuess);
             this.Controls.Add(this.labelUserGuess);
             this.Controls.Add(this.labelMainMenu);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.buttonCpuGuess);
             this.Controls.Add(this.buttonUserGuess);
             this.Name = "MainMenu";
@@ -132,10 +132,10 @@
 
         private System.Windows.Forms.Button buttonUserGuess;
         private System.Windows.Forms.Button buttonCpuGuess;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label labelMainMenu;
         private System.Windows.Forms.Label labelUserGuess;
         private System.Windows.Forms.Label labelComputerGuess;
         private System.Windows.Forms.Label labelMatchHistory;
+        private System.Windows.Forms.Button buttonMatchHistory;
     }
 }
