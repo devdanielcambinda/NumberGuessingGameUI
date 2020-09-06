@@ -13,10 +13,11 @@ namespace WindowsFormsApp1
     public partial class HelpButtonMenu : UserControl
     {
 
-        
         public HelpButtonMenu()
         {
             InitializeComponent();
+            textBox1.ReadOnly = true;
+
         }
 
         
