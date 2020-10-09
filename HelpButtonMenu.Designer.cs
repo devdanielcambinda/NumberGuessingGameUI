@@ -51,8 +51,8 @@
             this.textBox1.Size = new System.Drawing.Size(949, 480);
             this.textBox1.TabIndex = 6;
             this.textBox1.Text = "- The default difficulty is medium.\r\n\r\n- The selected difficulty is used for both" +
-    " games.\r\n\r\n- All the \" go back arrows \" return to the main menu and not to the p" +
-    "revious page used.";
+    " games.\r\n\r\n- The \" back arrow \" returns to the main menu and not to the previous" +
+    " page used.";
             // 
             // HelpButtonMenu
             // 
