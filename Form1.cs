@@ -23,7 +23,7 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            buttonBack.Visible = false; 
         }
 
         private void buttonQuit_Click(object sender, EventArgs e)
@@ -42,17 +42,19 @@ namespace WindowsFormsApp1
 
         private void buttonSettings_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void buttonHelp_Click(object sender, EventArgs e)
         {
             helpButtonMenu1.BringToFront();
+            buttonBack.Visible = true;
         }
 
-        private void back_Click(object sender, EventArgs e)
+        private void buttonBack_Click(object sender, EventArgs e)
         {
             mainMenu1.BringToFront();
+            buttonBack.Visible = false;
         }
     }
 }
