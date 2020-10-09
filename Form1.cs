@@ -6,7 +6,9 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
+
 
 namespace WindowsFormsApp1
 {
@@ -18,7 +20,7 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
-            mainMenu1.BringToFront();
+            mainMenu.BringToFront();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -47,13 +49,13 @@ namespace WindowsFormsApp1
 
         private void buttonHelp_Click(object sender, EventArgs e)
         {
-            helpButtonMenu1.BringToFront();
+            helpButtonMenu.BringToFront();
             buttonBack.Visible = true;
         }
 
         private void buttonBack_Click(object sender, EventArgs e)
         {
-            mainMenu1.BringToFront();
+            mainMenu.BringToFront();
             buttonBack.Visible = false;
         }
     }

@@ -33,8 +33,8 @@
             this.buttonSettings = new System.Windows.Forms.Button();
             this.buttonHelp = new System.Windows.Forms.Button();
             this.buttonBack = new System.Windows.Forms.Button();
-            this.mainMenu1 = new WindowsFormsApp1.MainMenu();
-            this.helpButtonMenu1 = new WindowsFormsApp1.HelpButtonMenu();
+            this.mainMenu = new WindowsFormsApp1.MainMenu();
+            this.helpButtonMenu = new WindowsFormsApp1.HelpButtonMenu();
             this.SuspendLayout();
             // 
             // buttonQuit
@@ -89,19 +89,19 @@
             this.buttonBack.UseVisualStyleBackColor = true;
             this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
-            // mainMenu1
+            // mainMenu
             // 
-            this.mainMenu1.Location = new System.Drawing.Point(62, 85);
-            this.mainMenu1.Name = "mainMenu1";
-            this.mainMenu1.Size = new System.Drawing.Size(1200, 690);
-            this.mainMenu1.TabIndex = 4;
+            this.mainMenu.Location = new System.Drawing.Point(62, 85);
+            this.mainMenu.Name = "mainMenu";
+            this.mainMenu.Size = new System.Drawing.Size(1200, 690);
+            this.mainMenu.TabIndex = 4;
             // 
-            // helpButtonMenu1
+            // helpButtonMenu
             // 
-            this.helpButtonMenu1.Location = new System.Drawing.Point(62, 85);
-            this.helpButtonMenu1.Name = "helpButtonMenu1";
-            this.helpButtonMenu1.Size = new System.Drawing.Size(1200, 690);
-            this.helpButtonMenu1.TabIndex = 5;
+            this.helpButtonMenu.Location = new System.Drawing.Point(62, 85);
+            this.helpButtonMenu.Name = "helpButtonMenu";
+            this.helpButtonMenu.Size = new System.Drawing.Size(1200, 690);
+            this.helpButtonMenu.TabIndex = 5;
             // 
             // Form1
             // 
@@ -110,11 +110,11 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1331, 798);
             this.Controls.Add(this.buttonBack);
-            this.Controls.Add(this.mainMenu1);
             this.Controls.Add(this.buttonHelp);
             this.Controls.Add(this.buttonQuit);
             this.Controls.Add(this.buttonSettings);
-            this.Controls.Add(this.helpButtonMenu1);
+            this.Controls.Add(this.mainMenu);
+            this.Controls.Add(this.helpButtonMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -129,8 +129,8 @@
         private System.Windows.Forms.Button buttonQuit;
         private System.Windows.Forms.Button buttonSettings;
         private System.Windows.Forms.Button buttonHelp;
-        private MainMenu mainMenu1;
-        private HelpButtonMenu helpButtonMenu1;
+        private MainMenu mainMenu;
+        private HelpButtonMenu helpButtonMenu;
         private System.Windows.Forms.Button buttonBack;
     }
 }
