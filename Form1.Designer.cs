@@ -34,6 +34,7 @@
             this.buttonHelp = new System.Windows.Forms.Button();
             this.mainMenu1 = new WindowsFormsApp1.MainMenu();
             this.helpButtonMenu1 = new WindowsFormsApp1.HelpButtonMenu();
+            this.back = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonQuit
@@ -89,12 +90,25 @@
             this.helpButtonMenu1.Size = new System.Drawing.Size(1200, 690);
             this.helpButtonMenu1.TabIndex = 5;
             // 
+            // back
+            // 
+            this.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.back.FlatAppearance.BorderSize = 0;
+            this.back.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.back.Location = new System.Drawing.Point(1097, 12);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(51, 53);
+            this.back.TabIndex = 6;
+            this.back.UseVisualStyleBackColor = true;
+            this.back.Click += new System.EventHandler(this.back_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1331, 798);
+            this.Controls.Add(this.back);
             this.Controls.Add(this.mainMenu1);
             this.Controls.Add(this.buttonHelp);
             this.Controls.Add(this.buttonQuit);
@@ -116,6 +130,7 @@
         private System.Windows.Forms.Button buttonHelp;
         private MainMenu mainMenu1;
         private HelpButtonMenu helpButtonMenu1;
+        private System.Windows.Forms.Button back;
     }
 }
 

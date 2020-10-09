@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HelpButtonMenu));
             this.labelHelpTab = new System.Windows.Forms.Label();
-            this.buttongoBackHelp = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -43,19 +41,6 @@
             this.labelHelpTab.Size = new System.Drawing.Size(399, 78);
             this.labelHelpTab.TabIndex = 4;
             this.labelHelpTab.Text = "Help Tab";
-            // 
-            // buttongoBackHelp
-            // 
-            this.buttongoBackHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttongoBackHelp.BackgroundImage")));
-            this.buttongoBackHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttongoBackHelp.FlatAppearance.BorderSize = 0;
-            this.buttongoBackHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttongoBackHelp.Location = new System.Drawing.Point(28, 35);
-            this.buttongoBackHelp.Name = "buttongoBackHelp";
-            this.buttongoBackHelp.Size = new System.Drawing.Size(55, 55);
-            this.buttongoBackHelp.TabIndex = 5;
-            this.buttongoBackHelp.UseVisualStyleBackColor = true;
-            this.buttongoBackHelp.Click += new System.EventHandler(this.buttongoBackHelp_Click);
             // 
             // textBox1
             // 
@@ -74,7 +59,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.buttongoBackHelp);
             this.Controls.Add(this.labelHelpTab);
             this.Name = "HelpButtonMenu";
             this.Size = new System.Drawing.Size(1200, 690);
@@ -86,7 +70,6 @@
         #endregion
 
         private System.Windows.Forms.Label labelHelpTab;
-        private System.Windows.Forms.Button buttongoBackHelp;
         private System.Windows.Forms.TextBox textBox1;
         
     }

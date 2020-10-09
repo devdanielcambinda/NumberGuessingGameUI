@@ -49,5 +49,10 @@ namespace WindowsFormsApp1
         {
             helpButtonMenu1.BringToFront();
         }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            mainMenu1.BringToFront();
+        }
     }
 }
