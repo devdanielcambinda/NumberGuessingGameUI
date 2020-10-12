@@ -15,6 +15,37 @@ namespace WindowsFormsApp1
         public SettingButtonMenu()
         {
             InitializeComponent();
+            MediumDifficultyButton.Checked = true;
         }
+
+        public bool LowRadioIsSelected()
+        {
+            if (LowDifficultyButton.Checked)
+            {
+                return true;
+            }
+            else return false;  
+        }
+
+        public bool MediumRadioIsSelected()
+        {
+            if (MediumDifficultyButton.Checked)
+            {
+                return true;
+            }
+            else return false;
+        }
+
+        public bool HardRadioIsSelected()
+        {
+
+            if (HardDifficultyButton.Checked)
+            {
+                return true;
+            }
+            else return false;
+
+        }
+    
     }
 }

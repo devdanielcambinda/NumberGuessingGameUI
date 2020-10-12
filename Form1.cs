@@ -21,6 +21,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             mainMenu.BringToFront();
+           
             
         }
 
@@ -45,7 +46,8 @@ namespace WindowsFormsApp1
 
         private void buttonSettings_Click(object sender, EventArgs e)
         {
-            
+            settingButtonMenu1.BringToFront();
+            buttonBack.Visible = true;
         }
 
         private void buttonHelp_Click(object sender, EventArgs e)

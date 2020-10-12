@@ -35,6 +35,7 @@
             this.buttonBack = new System.Windows.Forms.Button();
             this.mainMenu = new WindowsFormsApp1.MainMenu();
             this.helpButtonMenu = new WindowsFormsApp1.HelpButtonMenu();
+            this.settingButtonMenu1 = new WindowsFormsApp1.SettingButtonMenu();
             this.SuspendLayout();
             // 
             // buttonQuit
@@ -79,7 +80,7 @@
             // buttonBack
             // 
             this.buttonBack.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonBack.BackgroundImage")));
-            this.buttonBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonBack.FlatAppearance.BorderSize = 0;
             this.buttonBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonBack.Location = new System.Drawing.Point(1097, 12);
@@ -103,6 +104,13 @@
             this.helpButtonMenu.Size = new System.Drawing.Size(1200, 690);
             this.helpButtonMenu.TabIndex = 5;
             // 
+            // settingButtonMenu1
+            // 
+            this.settingButtonMenu1.Location = new System.Drawing.Point(62, 85);
+            this.settingButtonMenu1.Name = "settingButtonMenu1";
+            this.settingButtonMenu1.Size = new System.Drawing.Size(1217, 636);
+            this.settingButtonMenu1.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -115,6 +123,7 @@
             this.Controls.Add(this.buttonSettings);
             this.Controls.Add(this.mainMenu);
             this.Controls.Add(this.helpButtonMenu);
+            this.Controls.Add(this.settingButtonMenu1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -132,6 +141,7 @@
         private MainMenu mainMenu;
         private HelpButtonMenu helpButtonMenu;
         private System.Windows.Forms.Button buttonBack;
+        private SettingButtonMenu settingButtonMenu1;
     }
 }
 
