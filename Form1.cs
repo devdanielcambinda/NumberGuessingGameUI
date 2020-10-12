@@ -21,6 +21,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             mainMenu.BringToFront();
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
