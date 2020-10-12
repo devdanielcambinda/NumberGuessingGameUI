@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.DifficultyChoice = new System.Windows.Forms.GroupBox();
-            this.LowDifficultyButton = new System.Windows.Forms.RadioButton();
-            this.MediumDifficultyButton = new System.Windows.Forms.RadioButton();
             this.HardDifficultyButton = new System.Windows.Forms.RadioButton();
+            this.MediumDifficultyButton = new System.Windows.Forms.RadioButton();
+            this.LowDifficultyButton = new System.Windows.Forms.RadioButton();
             this.labelSettingMenu = new System.Windows.Forms.Label();
             this.DifficultyChoice.SuspendLayout();
             this.SuspendLayout();
@@ -41,28 +41,30 @@
             this.DifficultyChoice.Controls.Add(this.HardDifficultyButton);
             this.DifficultyChoice.Controls.Add(this.MediumDifficultyButton);
             this.DifficultyChoice.Controls.Add(this.LowDifficultyButton);
-            this.DifficultyChoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DifficultyChoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DifficultyChoice.Location = new System.Drawing.Point(92, 160);
             this.DifficultyChoice.Name = "DifficultyChoice";
             this.DifficultyChoice.Size = new System.Drawing.Size(323, 229);
             this.DifficultyChoice.TabIndex = 0;
             this.DifficultyChoice.TabStop = false;
-            this.DifficultyChoice.Text = "Each difficulty do you want ? ";
+            this.DifficultyChoice.Text = "Select the difficulty:";
             // 
-            // LowDifficultyButton
+            // HardDifficultyButton
             // 
-            this.LowDifficultyButton.AutoSize = true;
-            this.LowDifficultyButton.Location = new System.Drawing.Point(24, 52);
-            this.LowDifficultyButton.Name = "LowDifficultyButton";
-            this.LowDifficultyButton.Size = new System.Drawing.Size(69, 29);
-            this.LowDifficultyButton.TabIndex = 0;
-            this.LowDifficultyButton.TabStop = true;
-            this.LowDifficultyButton.Text = "Low";
-            this.LowDifficultyButton.UseVisualStyleBackColor = true;
+            this.HardDifficultyButton.AutoSize = true;
+            this.HardDifficultyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HardDifficultyButton.Location = new System.Drawing.Point(24, 170);
+            this.HardDifficultyButton.Name = "HardDifficultyButton";
+            this.HardDifficultyButton.Size = new System.Drawing.Size(75, 29);
+            this.HardDifficultyButton.TabIndex = 2;
+            this.HardDifficultyButton.TabStop = true;
+            this.HardDifficultyButton.Text = "Hard";
+            this.HardDifficultyButton.UseVisualStyleBackColor = true;
             // 
             // MediumDifficultyButton
             // 
             this.MediumDifficultyButton.AutoSize = true;
+            this.MediumDifficultyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MediumDifficultyButton.Location = new System.Drawing.Point(24, 114);
             this.MediumDifficultyButton.Name = "MediumDifficultyButton";
             this.MediumDifficultyButton.Size = new System.Drawing.Size(103, 29);
@@ -71,16 +73,17 @@
             this.MediumDifficultyButton.Text = "Medium";
             this.MediumDifficultyButton.UseVisualStyleBackColor = true;
             // 
-            // HardDifficultyButton
+            // LowDifficultyButton
             // 
-            this.HardDifficultyButton.AutoSize = true;
-            this.HardDifficultyButton.Location = new System.Drawing.Point(24, 170);
-            this.HardDifficultyButton.Name = "HardDifficultyButton";
-            this.HardDifficultyButton.Size = new System.Drawing.Size(75, 29);
-            this.HardDifficultyButton.TabIndex = 2;
-            this.HardDifficultyButton.TabStop = true;
-            this.HardDifficultyButton.Text = "Hard";
-            this.HardDifficultyButton.UseVisualStyleBackColor = true;
+            this.LowDifficultyButton.AutoSize = true;
+            this.LowDifficultyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LowDifficultyButton.Location = new System.Drawing.Point(24, 52);
+            this.LowDifficultyButton.Name = "LowDifficultyButton";
+            this.LowDifficultyButton.Size = new System.Drawing.Size(69, 29);
+            this.LowDifficultyButton.TabIndex = 0;
+            this.LowDifficultyButton.TabStop = true;
+            this.LowDifficultyButton.Text = "Low";
+            this.LowDifficultyButton.UseVisualStyleBackColor = true;
             // 
             // labelSettingMenu
             // 
