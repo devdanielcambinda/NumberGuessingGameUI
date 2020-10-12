@@ -14,9 +14,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        public object MessageBoxManager { get; private set; }
-      
-
+        
         public Form1()
         {
             InitializeComponent();
