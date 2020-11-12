@@ -36,7 +36,7 @@
             // 
             this.labelHelpTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelHelpTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelHelpTab.Location = new System.Drawing.Point(113, 26);
+            this.labelHelpTab.Location = new System.Drawing.Point(63, 29);
             this.labelHelpTab.Name = "labelHelpTab";
             this.labelHelpTab.Size = new System.Drawing.Size(399, 78);
             this.labelHelpTab.TabIndex = 4;
