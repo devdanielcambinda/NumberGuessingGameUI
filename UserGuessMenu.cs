@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
             TentativasToolTip.SetToolTip(NumerosFalhados, "This box presents the numbers that you thought that were the correct one.");
             
             Random rdm = new Random();
-            NumberToBeGuess = rdm.Next(1, 101);
+            NumberToBeGuessed = rdm.Next(1, 101);
 
         }
 
