@@ -12,7 +12,7 @@ namespace WindowsFormsApp1
 {
     public partial class UserGuessMenu : UserControl
     {
-        public int NumberToBeGuess
+        public int NumberToBeGuessed
         {
             get; private set;
         }
