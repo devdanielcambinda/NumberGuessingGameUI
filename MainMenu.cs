@@ -19,7 +19,11 @@ namespace WindowsFormsApp1
 
         private void buttonUserGuess_Click(object sender, EventArgs e)
         {
+            UserGuessMenu jogoDeAdivinhar = new UserGuessMenu();
+            jogoDeAdivinhar.Visible = true;
+            
 
+            
         }
 
         private void buttonCpuGuess_Click(object sender, EventArgs e)

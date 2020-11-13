@@ -20,11 +20,6 @@ namespace WindowsFormsApp1
 
         }
 
-        
-
-        private void buttongoBackHelp_Click(object sender, EventArgs e)
-        {
-            
-        }
+    
     }
 }
