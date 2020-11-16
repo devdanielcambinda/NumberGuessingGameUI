@@ -27,6 +27,7 @@ namespace WindowsFormsApp1
             Random rdm = new Random();
             NumberToBeGuessed = rdm.Next(1, 101);
 
+
         }
 
         private void SubmitButton_Click(object sender, EventArgs e)
