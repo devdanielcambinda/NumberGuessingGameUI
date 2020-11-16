@@ -28,6 +28,7 @@ namespace WindowsFormsApp1
             NumberToBeGuessed = rdm.Next(1, 101);
 
 
+
         }
 
         private void SubmitButton_Click(object sender, EventArgs e)
