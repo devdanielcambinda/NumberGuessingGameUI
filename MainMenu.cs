@@ -21,9 +21,6 @@ namespace WindowsFormsApp1
         {
             UserGuessMenu jogoDeAdivinhar = new UserGuessMenu();
             jogoDeAdivinhar.Visible = true;
-            
-
-            
         }
 
         private void buttonCpuGuess_Click(object sender, EventArgs e)
