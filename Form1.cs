@@ -39,6 +39,7 @@ namespace WindowsFormsApp1
                 this.Close();
             }
             
+
         }
 
         private void buttonSettings_Click(object sender, EventArgs e)
